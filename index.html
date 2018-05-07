@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+
+  <!-- basic compatibility -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+
+  <title>Question Digest</title>
+
+  <!-- External js scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <!-- Custom file -->
+  <script src="app.js"></script>
+
+  <!-- Controllers -->
+  <script src="user/userCtrl.js"></script>
+
+
+  <!-- External styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+
+  <!-- Custom file -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body ng-app="qdApp">
+  <div ng-view></div>
+</body>
+</html>
